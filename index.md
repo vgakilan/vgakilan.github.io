@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Akilan // Personal Home Page
 ---
 
 # 👋 Hello, I’m Akilan.
