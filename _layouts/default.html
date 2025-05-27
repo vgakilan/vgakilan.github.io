@@ -24,8 +24,13 @@
       {{ content }}
     </section>
 
-    <!-- Profile photo on the right (desktop), on top (mobile) -->
-    <img src="/assets/images/profile-photo.jpg" alt="Akilan" class="profile-photo" />
+    {% comment %}
+      Hide profile photo on blog posts whose URLs start with /YYYY/MM/DD/
+      Show profile photo on all other pages
+    {% endcomment %}
+    {% unless page.url contains '/202' or page.url contains '/bytes/' or page.url contains '/echoes/' %}
+      <img src="/assets/images/profile-photo.jpg" alt="Akilan" class="profile-photo" />
+    {% endunless %}
   </main>
 
   <footer class="site-footer">
