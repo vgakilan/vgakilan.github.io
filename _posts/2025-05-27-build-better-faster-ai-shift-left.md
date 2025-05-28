@@ -57,9 +57,9 @@ This ongoing evolution is necessary to deliver high-quality software at the spee
 
 ---
 
-**Sources:**
+## References
 
-1. [Shift-Left Testing Paper](https://doi.org/10.14445/22312803/IJCTT-V72I12P104)  
-2. [ResearchGate on Shift-Left Testing Paradigm](https://www.researchgate.net/publication/370477705_Shift-Left_Testing_Paradigm_Process_Implementation_for_Quality_of_Software_Based_on_Fuzzy)  
-3. [Parasoft Learning Center - Shift-Left Testing Across SDLC](https://www.parasoft.com/learning-center/shift-left-testing-across-sdlc/)  
-4. [Forbes Article on Accelerating QA Shift-Left with AI](https://www.forbes.com/councils/forbestechcouncil/2025/01/16/accelerating-qa-shift-left-strategies-with-the-power-of-ai/)  
+1. [A Comprehensive Survey on Shift Left Testing Paradigm](https://doi.org/10.14445/22312803/IJCTT-V72I12P104) – International Journal of Computer Trends and Technology.
+2. [Shift-Left Testing Paradigm Process Implementation for Quality of Software Based on Fuzzy](https://www.researchgate.net/publication/370477705_Shift-Left_Testing_Paradigm_Process_Implementation_for_Quality_of_Software_Based_on_Fuzzy) – ResearchGate.
+3. [Shift Left Testing Across the SDLC](https://www.parasoft.com/learning-center/shift-left-testing-across-sdlc/) – Parasoft Learning Center.
+4. [Accelerating QA Shift-Left Strategies With The Power Of AI](https://www.forbes.com/councils/forbestechcouncil/2025/01/16/accelerating-qa-shift-left-strategies-with-the-power-of-ai/) – Forbes Technology Council.
