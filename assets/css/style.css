@@ -1,9 +1,8 @@
-/* Global box model */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* Base layout */
 html, body {
   height: 100%;
   margin: 0;
@@ -11,9 +10,9 @@ html, body {
 }
 
 body {
-  display: flex;           /* added */
-  flex-direction: column;  /* added */
-  min-height: 100vh;       /* added */
+  display: flex;           
+  flex-direction: column;  
+  min-height: 100vh;       
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
                Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   background-color: #fff;
@@ -23,7 +22,6 @@ body {
 
 }
 
-/* Shared centered container */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -37,13 +35,11 @@ body {
 }
 
 
-/* Consistent top spacing for EVERY page */
 .main-content {
   padding-top: 3rem;
   flex: 1;
 }
 
-/* Header */
 .site-header {
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
@@ -56,7 +52,6 @@ body {
   align-items: center;
 }
 
-/* Site name */
 .site-name {
   font-size: 2.5rem;
   font-weight: 800;
@@ -71,7 +66,7 @@ body {
   padding-bottom: 0.15em;
 }
 
-/* Navigation */
+
 .site-header nav ul {
   display: flex;
   gap: 2rem;
