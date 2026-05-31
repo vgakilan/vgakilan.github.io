@@ -2,7 +2,7 @@ function loadInclude(id, file) {
   const container = document.getElementById(id);
   if (!container) return;
 
-  fetch(file)
+  fetch(`${file}?v=20260531`)
     .then(res => res.text())
     .then(html => { container.innerHTML = html; });
 }
