@@ -4,7 +4,12 @@ function loadInclude(id, file) {
 
   fetch(`${file}?v=20260531`)
     .then(res => res.text())
-    .then(html => { container.innerHTML = html; });
+    .then(html => {
+      container.innerHTML = html;
+      document.dispatchEvent(new CustomEvent("site:include-loaded", {
+        detail: { id, file }
+      }));
+    });
 }
 
 loadInclude("header", "/assets/includes/header.html");
